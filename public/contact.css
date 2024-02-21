@@ -1,14 +1,5 @@
-*{
-    box-sizing: border-box;
-}
-body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    margin: 50px 300px ;
-    padding: 17px;
-    
-}
 .container{
+    margin: 0 auto;
     
     background-color: #ebf0df;
     
@@ -34,7 +25,7 @@ textarea{
 .body{
     padding: 15px 10px 10px;
 }
-input[type="submit"]{
+.body input[type="submit"]{
     background-color: #5dac7d;
     color: #e7e8e3;
     border: none;
@@ -47,4 +38,18 @@ input[type="submit"]{
 }
 input[type="submit"]:hover{
     background-color: #72c593;
+}
+
+@media (min-width: 950px) {
+    *{
+        box-sizing:initial;
+    }
+    body{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        margin: 50px 300px ;
+        padding: 17px;
+        
+    } 
+
 }
