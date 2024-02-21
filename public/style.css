@@ -633,7 +633,7 @@ padding: 100px;
       border-radius: 10px;  
       position: fixed;  
       align-items: center;
-      top: 0%;
+      top: 90%;
       left: 50%;
       transform: translateX(-50%);
   }
@@ -840,13 +840,6 @@ padding: 100px;
   .right_card p{
       font-size: small;
   }
-      #background-image{
-    position: relative;
-  }
-  .background{
-    top: 5px;
-  }
-
 
 
 }
