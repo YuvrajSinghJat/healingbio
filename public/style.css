@@ -633,7 +633,7 @@ padding: 100px;
       border-radius: 10px;  
       position: fixed;  
       align-items: center;
-      top: 90%;
+      top: 0%;
       left: 50%;
       transform: translateX(-50%);
   }
