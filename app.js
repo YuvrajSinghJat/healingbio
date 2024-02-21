@@ -40,7 +40,7 @@ app.get("/contact",(req,res)=>{
     res.render("contact.ejs");
 });
 app.post("/server",(req,res)=>{
-    //console.log(req.body);
+    console.log(req.body);
     let name=req.body.name;
     let mail=req.body.mail;
     let thoughts=req.body.thoughts;
