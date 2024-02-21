@@ -840,6 +840,13 @@ padding: 100px;
   .right_card p{
       font-size: small;
   }
+      #background-image{
+    position: relative;
+  }
+  .background{
+    top: 5px;
+  }
+
 
 
 }
