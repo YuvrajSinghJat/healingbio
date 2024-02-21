@@ -1,0 +1,424 @@
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+
+.alice-regular {
+  font-family: "Alice", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.ribeye-regular {
+  font-family: "Ribeye", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.noto-sans{
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+body{
+    
+    object-fit: contain; 
+    background-size: 100%;
+    background-position: center; 
+    background-image: linear-gradient(-45deg,#E6E7E1,#386771,#91A7A5);
+    font-family: "Noto Sans", sans-serif;
+}
+.background{
+    width: 100%;   
+    margin: 0;
+}
+h1{
+  color: white;
+}
+p{
+  color: white;
+}
+
+#nav {
+    
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 12vh;
+    z-index: 999;
+    transition: 0.3s;
+
+}
+
+.link {
+    color: rgb(245, 241, 241); 
+    text-decoration: none; 
+    padding: 20px; 
+    margin: 0 10px; 
+    font-size: larger;
+}
+.image {
+    border-radius: 50%; 
+    margin-right: 10px; 
+}
+.links-container{
+    /* background-color: #a98167; */
+    background-image: linear-gradient(-45deg , rgb(182,227,212) ,rgb(20, 129, 151));
+    opacity: 0.8;
+    padding: 20px;
+    border-radius: 10px;    
+}
+
+.link:hover{
+  /* background-color: #896a5a; */
+  background-image: linear-gradient(-45deg , rgb(182,227,212) ,rgb(20, 129, 151));
+  border: none;
+  border-radius: 30px;
+  padding: 20px;
+}
+.center-adjuster{
+    margin: 30px;
+}
+
+.heading{
+  display: flex;
+  text-align: center;
+}
+.circle_image img{
+  width: 650px;
+  height: 600px;
+  margin: 150px -100px;
+  padding: 20px;
+}
+.heading_text{
+  margin: 150px 100px;
+  width: 50%;
+}
+.heading_text h1{
+  font-size: 100px;
+}
+.heading_text p{
+  font-size: x-large;
+  padding: 30px;
+}
+.transportation{
+  display: flex;
+  text-align: center;
+
+}
+.explanation{
+  float: left;
+  width: 45%;
+  margin: 0 50px;
+}
+.explanation h1{
+  font-size: 45px;
+  padding: 20px;
+}
+.explanation p{
+  font-size: larger;
+  padding: 15px;
+  margin: 15px 0;
+}
+.transportation_image{
+  
+  padding: 10px;
+  margin: 0 40px;
+}
+.transportation_image img{
+  width: 350px;
+  height: 400px ;
+
+}
+.clip_polygon{
+  clip-path: circle(38.3% at 50% 50%);
+}
+
+.transportation_website_1{
+  display: flex;
+  text-align: center;
+}
+.lyft_img{
+  width: 45%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.lyft_img img{
+  width: 330px;
+  height: 300px;
+}
+.lyft{
+  width: 45%;
+  margin: 0 40px;
+  padding: 20px;
+}
+.lyft h1{
+  font-size: 30px;
+}
+.lyft p{
+  font-size: 20px;
+}
+.lyft a{
+  color: white;
+}
+
+
+.transportation_website_2{
+  display: flex;
+  text-align: center;
+}
+.octoev_img{
+  width: 45%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.octoev_img img{
+  width: 330px;
+  height: 300px;
+}
+.octoev{
+  width: 45%;
+  margin: 0 40px;
+  padding: 20px;
+}
+.octoev h1{
+  font-size: 30px;
+}
+.octoev p{
+  font-size: 20px;
+  
+}
+.octoev a{
+  color: white;
+}
+
+
+.transportation_website_3{
+  display: flex;
+  text-align: center;
+}
+.orion_img{
+  width: 45%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.orion_img img{
+  width: 330px;
+  height: 300px;
+}
+.orion{
+  width: 45%;
+  margin: 0 40px;
+  padding: 20px;
+}
+.orion h1{
+  font-size: 30px;
+}
+.orion p{
+  font-size: 20px;
+  
+}
+.orion a{
+  color: white;
+}
+
+.solidwaste{
+  display: flex;
+  text-align: center;
+  padding:70px;
+}
+.solidwaste_image{
+  padding: 20px;
+  margin: 0 40px;
+  float: right;
+}
+.solidwaste_image img{
+  height: 350px;
+  width: 350px;
+}
+
+.transportation_website_4{
+  display: flex;
+  text-align: center;
+}
+.anthropocene_img{
+  width: 45%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.anthropocene_img img{
+  width: 330px;
+  height: 300px;
+}
+.anthropocene{
+  width: 45%;
+  margin: 0 40px;
+  padding: 20px;
+}
+.anthropocene h1{
+  font-size: 30px;
+}
+.anthropocene p{
+  font-size: 20px;
+  
+}
+.anthropocene a{
+  color: white;
+}
+
+.transportation_website_5{
+  display: flex;
+  text-align: center;
+}
+.banofi_img{
+  width: 45%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.banofi_img img{
+  width: 330px;
+  height: 300px;
+}
+.banofi{
+  width: 45%;
+  margin: 0 40px;
+  padding: 20px;
+}
+.banofi h1{
+  font-size: 30px;
+}
+.banofi p{
+  font-size: 20px;
+}
+.banofi a{
+  color: white;
+}
+.alternative{
+  display: flex;
+  text-align: center;
+  padding:70px;
+}
+.alternative_image{
+  padding: 20px;
+  margin: 0 40px;
+  float: right;
+}
+.alternative_image img{
+  height: 350px;
+  width: 350px;
+}
+
+.transportation_website_6{
+  display: flex;
+  text-align: center;
+}
+.fashion_img{
+  width: 45%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.fashion_img img{
+  width: 330px;
+  height: 300px;
+}
+.fashion{
+  width: 45%;
+  margin: 0 40px;
+  padding: 20px;
+}
+.fashion h1{
+  font-size: 30px;
+}
+.fashion p{
+  font-size: 20px;
+}
+.fashion a{
+  color: white;
+}
+
+
+.transportation_website_7{
+  display: flex;
+  text-align: center;
+}
+.attero_img{
+  width: 45%;
+  padding: 10px;
+  margin: 0 40px;
+}
+.attero_img img{
+  width: 330px;
+  height: 300px;
+}
+.attero{
+  width: 45%;
+  margin: 0 40px;
+  padding: 20px;
+}
+.attero h1{
+  font-size: 30px;
+}
+.attero p{
+  font-size: 20px;
+}
+.attero a{
+  color: white;
+}
+
+
+.details {
+  width: 90%;
+  margin: 20px auto;
+  background-image: linear-gradient(-45deg , rgb(182,227,212) ,rgb(20, 129, 151));
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  z-index: 9999;
+  color: white;
+  display: flex;
+  text-align: center;
+}
+.details h1, h2 {
+  color: white;
+}
+.contact-info p {
+  color: white;
+  line-height: 1.6;
+}
+.contact-info {
+  margin-top: 20px;
+}
+.contact-info p {
+  margin: 5px 0;
+}
+.social-icons {
+  margin-top: 20px;
+}
+.social-icons a {
+  color: white;
+  text-decoration: none;
+  margin-right: 10px;
+}
+.social-icons a:hover {
+  color: #333;
+}
+.aboutus p{
+  padding: 40px;
+  word-spacing: 4px;
+  color: white;
+}
+.aboutus{
+  width: 50%;
+}
+.right_card{
+  width: 45%;
+}

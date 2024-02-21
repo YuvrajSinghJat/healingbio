@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="/contact.css">
+</head>
+<body>
+    <div class="container">
+    <form method="post" action="/server">
+        <div class="header">
+        <h1>Contact Form</h1>
+        <p>please fill all the texts in the fields.</p>
+        </div>
+    
+        <div class="body">
+        <p>Name: <input type="text" placeholder="Eg: Aditi Sharma"  id="name" name="name" required></p>
+        <p>Email: <input type="email"  placeholder= "Eg: aditi15@gamil.com" name="mail" required></p>
+        <p>Submit your thoughts here: <textarea name="thoughts" id="thoughts" cols="30" rows="10" placeholder="Eg: how do you make profits?"></textarea></p>
+        <p><input type="submit" value="Submit"></p>
+        </div>
+    </form>
+    </div>
+
+    
+</body>
+</html>
